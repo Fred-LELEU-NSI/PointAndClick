@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/pointandclick.js"></script>
+
+    <title>Point & Click</title>
+</head>
+<body onload="main()">
+
+    <div class="container rounded-3 p-5  my-5 bg-primary text-white shadow-lg">
+        <h1>Point & Click</h1>
+        Un petit jeu d'aventure autour de la cyber sécurité
+    </div>
+    <div class="container shadow-lg">
+        Hello ! Du texte...
+    </div>
+    <br>
+    <div>
+        <img src="img/bg.png" class="img-thumbnail mx-auto d-block shadow-lg" width="600" alt="Cinque Terre" usemap="#click">
+        <map name="click">
+            <area shape="rect" coords="100,100,250,150" alt="blackRectangle" style="cursor:url(img/cursor.png),auto;" href="https://impytoyable.fr">
+        </map>
+    </div>
+    <div id="cookie_display" class="container rounded-3 p-5 my-5 bg-dark text-white shadow-lg">
+        Ce texte va être remplacé.
+    </div>
+
+</body>
+</html>
